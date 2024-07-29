@@ -57,6 +57,8 @@ CRISPY_ALLOWED_TEMPLATE_PACKS = "tailwind"
  
 CRISPY_TEMPLATE_PACK = "tailwind"  
 
+CSRF_TRUSTED_ORIGINS = ['https://book-bar.onrender.com','https://*.127.0.0.1']
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
